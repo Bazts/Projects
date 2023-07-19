@@ -11,7 +11,9 @@
     <tr>
       <td>React Shopping Cart</td>
       <td><a href="https://magnificent-croissant-145ff5.netlify.app/">Visit</a></td>
-      <td>asdjflkasjfklasdjfklasdjfkladsjfkladsjfkladsjfkladsjfkladsjfklasdjfklasdfjl</td>
     </tr>
+     <tr>
+       <td>asdjflkasjfklasdjfklasdjfkladsjfkladsjfkladsjfkladsjfkladsjfklasdjfklasdfjl</td>
+     </tr>
   </tbody>
 </table>
