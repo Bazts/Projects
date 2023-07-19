@@ -1,0 +1,135 @@
+h1 {
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header-wrapper {
+  width: 100%;
+}
+
+.main-header-sm-screen {
+  display: none;
+}
+
+.main-header {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  height: 43px;
+  z-index: 50;
+  z-index: 1;
+}
+
+.main-header-hamburger-menu {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.main-header-title {
+  display: flex;
+  flex: 2.5;
+  justify-content: center;
+  height: 100%;
+}
+
+.main-header-btn-cart {
+  flex: 1;
+  justify-content: end;
+  display: flex;
+  height: 100%;
+}
+
+.cart-btn.in-header {
+  position: initial;
+  right: 0px;
+  top: 0px;
+  opacity: 1;
+  background-color: #08f;
+  display: inline-flex;
+}
+
+.hamburger-manu-container {
+  left: 0;
+  display: none;
+  width: 60px;
+  height: 100%;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, .15);
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger-manu-container svg {
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.hamburger-manu-container:hover {
+  background-color: rgba(255, 255, 255, .25);
+}
+
+.hamburger-menu {
+  border: 2px solid #fff;
+  width: 100%;
+  border-radius: 100px;
+}
+
+@media screen and (min-width: 1200px) {
+  .main-header-hamburger-menu {
+    display: none;
+  }
+
+  .main-header-title {
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .hamburger-manu-container {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  h1 {
+    font-size: 23px;
+  }
+
+  .hamburger-manu-container {
+    display: flex;
+  }
+
+  .cart-btn {
+    display: flex;
+  }
+
+  .cart-btn-total {
+    position: relative;
+    top: 2px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .main-header-title h1 {
+    display: none;
+  }
+
+  .main-header-sm-screen {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
